@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const firstArg = process.argv[2];
+const [School, Hospital, Church] = process.argv;
 
-if (firstArg === undefined) {
+if (School === undefined) {
   console.log("No argument");
 } else {
-  console.log('firstArg');
+  console.log(School);
 }
