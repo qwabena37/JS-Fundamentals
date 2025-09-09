@@ -1,14 +1,9 @@
-const args = process.argv.slice(2);
-let count = 0;
+#!/usr/bin/env node
 
-args.forEach(() => {   // for each argument
-  count++;
-});
+const firstArg = process.argv[2];
 
-if (count === 0) {
+if (firstArg === undefined) {
   console.log("No argument");
-} else if (count === 1) {
-  console.log("Argument found");
 } else {
-  console.log('Arguments found');
+  console.log(firstArg);
 }
