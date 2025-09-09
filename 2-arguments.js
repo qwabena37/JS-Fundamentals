@@ -6,9 +6,9 @@ args.forEach(() => {   // for each argument
 });
 
 if (count === 0) {
-  console.log("No arguments were passed.");
+  console.log("No argument.");
 } else if (count === 1) {
-  console.log("One argument was passed.");
+  console.log("Argument found.");
 } else {
-  console.log(`${count} arguments were passed.`);
+  console.log('Arguments found.');
 }
