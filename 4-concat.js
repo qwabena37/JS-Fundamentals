@@ -2,8 +2,10 @@
 const firstArg = process.argv[2];
 const secondArg = process.argv[3];
 
-if (firstArg === undefined || secondArg === undefined) {
-  console.log("HBTN is undefined");
+if (firstArg !== undefined && secondArg !== undefined) {
+  // Case: two arguments
+  console.log(`${firstArg} ${secondArg}`);
 } else {
-  console.log(`Python is ${secondArg}`);
+  // Case: one or zero arguments
+  console.log(`${firstArg} is ${secondArg}`);
 }
