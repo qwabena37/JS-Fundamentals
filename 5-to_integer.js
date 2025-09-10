@@ -1,15 +1,17 @@
 
 
+
 function checkArg(arg) {
   const num = parseInt(arg, 10);
 
   if (!isNaN(num)) {
-    console.log(`${arg} → My number: ${num}`);
+    console.log(`Argument: ${arg}`);
   } else {
-    console.log(`${arg} → Not a number`);
+    console.log(`Argument: ${arg}`);
   }
 }
 
-const cases = [null, 89, '89', 89.89, 'school'];
+// Test the 5 cases
+const cases = [89, '89', -4545, '-4545', 'ALX'];
 
 cases.forEach(value => checkArg(value));
