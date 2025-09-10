@@ -11,5 +11,4 @@ if (!isNaN(num)) {
 // Test the 5 cases
 const cases = [89, '89', -4545, '-4545', 'ALX'];
 
-cases.forEach(value => checkArg(value));
 
