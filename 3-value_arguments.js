@@ -1,5 +1,10 @@
 
+const firstArg = process.argv[2];
 
-console.log(`Hello, I was invoked as: ${process.argv0}`);
-console.log(`But the real executable path is: ${process.argv[0]}`);
+if (firstArg === undefined) {
+  console.log("No argument");
+} else {
+  console.log(firstArg);
+}
+
 
