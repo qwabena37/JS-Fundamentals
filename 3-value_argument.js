@@ -6,9 +6,9 @@ const thirdArg = process.argv[4]; // to detect if there's more than 2
 if (firstArg === undefined) {
   console.log("No argument");
 } else if (secondArg === undefined) {
-  console.log(`"${firstArg}"`);
+  console.log(`${firstArg}`);
 } else if (thirdArg === undefined) {
-  console.log(`2 arguments: "${firstArg} ${secondArg}"`);
+  console.log(`${firstArg}`);
 } else {
   console.log("More than 2 arguments");
 }
