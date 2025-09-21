@@ -5,7 +5,7 @@ const secondArg = process.argv[3];
 
 if (firstArg !== undefined && secondArg !== undefined) {
   // Case: two arguments
-  console.log(`${firstArg} ${secondArg}`);
+  console.log(`${firstArg} is ${secondArg}`);
 } else {
   // Case: one or zero arguments
   console.log(`${firstArg} is ${secondArg}`);
